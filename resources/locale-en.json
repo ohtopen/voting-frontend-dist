@@ -1,7 +1,7 @@
-{
+﻿{
   "index": {
     "menu": {
-      "title": "Council Elections 2018",
+      "title": "KY Elections 2019",
       "sign_up": "Sign Up",
       "elections": "Vote",
       "profile": "Eligibility",
@@ -11,11 +11,11 @@
 
   "pages": {
     "main": {
-      "page_title": "Council Elections",
+      "page_title": "KY Elections 2019",
       "you_may_check_eligibility":
-        "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the Helsinki University Student Registry by 15.9.2015.",
+        "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the KY Student Registry by 10.10.2019.",
       "sign_in_using_university_account":
-        "Sign in using your account of the University of Helsinki.",
+        "Sign in using your Aalto University account.",
       "eligibility_check": "Eligibility for the elections",
       "voting_opening_hours": "Voting is open between {{ open }} - {{ close }}.",
       "voting_opens_at": "Voting opens at",
@@ -72,31 +72,31 @@
     "sign_up": {
       "page_title": "Sign Up",
       "attention": "Please note!",
-      "voting_days_are": "The voting days are {{ firstPeriod }} and {{ secondPeriod }}",
-      "voting_open_hours_are": "Voting is open between {{ range }} on each voting day.",
+      "voting_days_are": "The voting period starts on 28.10.19 at 12.00 and ends on 5.11.19 at 16.00.",
+      "voting_open_hours_are": "Voting will be disallowed during the night from 23.00 to 7.00 each day.",
       "primary_button_caption": "Sign Up",
       "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the election staff {{ name }}, {{ email }}, {{ phone }}.",
       "sign_in_is_not_active": "Voting is not open at the moment.",
 
       "edari": {
-        "eligibility": "You have a voting right if you have enrolled in and paid the member fee of the Student Union. You can sign up to vote by using your Helsinki University user account.",
+        "eligibility": "You have a voting right if you have joined KY. You can sign up to vote by using your Aalto University user account.",
 
-        "late_member_note": "If you enrolled in just recently, your student number might not yet be in the list of people with voting rights. In that case you will receive a message after signing in that you don't have a voting right. Your voting right can be created if you proof your payment of the Student Union's member fee at the office of the Student Union."
+        "late_member_note": "If you enrolled in just recently, your student number might not yet be in the list of people with voting rights. In that case you will receive a message after signing in that you don't have a voting right. Your voting right can be created if you Join KY at Espilä."
       },
 
       "request_link": {
         "ingress":
           "Give the same e-mail address you have in University’s student registry, and we will send you a registration link.",
        "password_instructions":
-          "Password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://weboodi.helsinki.fi'>WebOodi</a>.",
+          "Password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://oodi.aalto.fi'>WebOodi</a>.",
         "spam_instructions":
           "In case you didn't receive the link, please also check your spam folder.",
         "in_case_of_fire":
-          "If everything else fails, please contact the election staff of the Student Union <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> or +358 46 921 7850.",
+          "If everything else fails, please contact the election staff of KY! <a href='mailto:elections@ky.fi'>elections@ky.fi</a> or +358 44 023 5697.",
 
         "attention": "Please Notice:",
         "election_dates_explained":
-          "Voting is between Tue 15.12.2015 at 9:00 - 20:00 and Wed 16.12.2015 at 9:00 - 17:00.",
+          "Voting is between Mon 28.10.2019 at 12:00 and Tue 5.11.2019 at 16:00.",
         "staff_eligibility_note":
           "Permanent staff of the university are not eligible to vote student members in the administration elections.",
         "private_browsing_note":
@@ -114,7 +114,7 @@
         "something_went_wrong": {
           "detail": "We were unable to send you the link.",
           "if_happens_again":
-            "If the problem happens again, please contact the election staff of the Student Union vaalit@hyy.fi +358 46 921 7850.",
+            "If the problem happens again, please contact the election staff of KY elections@ky.fi +358 44 023 5697.",
           "pls_explain":
             "Please let us know the technical error message:"
         },
@@ -137,7 +137,7 @@
       "you_are_eligible":
         "You are eligible in the elections of your faculty and department.",
       "in_case_of_problem":
-        "If there is a problem with your information, please contact the Student Union.",
+        "If there is a problem with your information, please contact KY.",
       "voter": {
         "name": "Name",
         "email": "Email",
@@ -220,17 +220,17 @@
 
   "partials": {
     "info": {
-      "main_title": "HYY Council Elections",
+      "main_title": "KY Elections",
       "ingress":
-        "HYY’s Representative Council elections are conducted to elect 60 members into the council, the highest decision-making body of the Student Union. All HYY’s members, around 27,000 students at the University of Helsinki, have the right to vote in the elections.",
+        "KY’s Representative Council elections are conducted to elect 21 members and 42 vicemembers into the council, the highest decision-making body of KY. All KY’s members, around 3,600 students at the Aalto University School of Business, have the right to vote in the elections.",
       "election_dates_explained":
-        "Election days are {{ firstPeriod }} and {{ secondPeriod }}. Voting is open during {{ range }}."
+        "Voting starts on 28.10.19 at 12.00 and ends on 5.11.19 at 16.00. Voting will be closed during the night from 23.00 to 7.00 each day."
     },
 
     "contact": {
       "more_info": "More information",
-      "hyy_ae_link_caption": "Student Union's info page",
-      "hyy_election_link_caption": "Student Union's info page",
+      "hyy_ae_link_caption": "KY's info page",
+      "hyy_election_link_caption": "KY's info page",
       "in_case_of_fire": "In case of a problem, please contact"
     }
   }
