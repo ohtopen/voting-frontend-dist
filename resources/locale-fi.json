@@ -1,236 +1,237 @@
 {
   "index": {
     "menu": {
-      "title": "Edustajistovaalit 2018",
-      "sign_up": "Kirjaudu",
-      "elections": "Äänestä",
-      "profile": "Omat Tiedot",
-      "sign_out": "Poistu"
+      "title": "KY Elections 2019",
+      "sign_up": "Sign Up",
+      "elections": "Vote",
+      "profile": "Eligibility",
+      "sign_out": "Sign Out"
     }
   },
 
   "pages": {
     "main": {
-      "page_title": "Edustajistovaalit",
+      "page_title": "KY Elections 2019",
       "you_may_check_eligibility":
-        "Voit tarkastaa vaalikelpoisuutesi tilaamalla sisäänkirjautumislinkin sähköpostiosoitteeseen, jonka olet ilmoittanut 15.9.2015 mennessä Helsingin yliopiston opiskelijarekisteriin.",
+        "You may check your eligibility for the elections by requesting a sign in link. Link will be sent to the email address you have submitted to the KY Student Registry by 10.10.2019.",
       "sign_in_using_university_account":
-        "Kirjaudu sisään Helsingin yliopiston käyttäjätunnuksellasi.",
-      "eligibility_check": "Vaalikelpoisuuden tarkastaminen",
-      "voting_opening_hours": "Äänestäminen on avoinna klo {{ open }} - {{ close }}.",
-      "voting_opens_at": "Äänestäminen avautuu",
-      "voting_has_ended": "Äänestys on päättynyt",
-      "result_will_be_published_at": "Tulos julkistetaan osoitteessa",
-      "voting_continues_at": "Äänestys jatkuu {{ day }} klo {{ time }}",
+        "Sign in using your Aalto University account.",
+      "eligibility_check": "Eligibility for the elections",
+      "voting_opening_hours": "Voting is open between {{ open }} - {{ close }}.",
+      "voting_opens_at": "Voting opens at",
+      "voting_has_ended": "Voting has ended.",
+      "result_will_be_published_at": "Result will be published at",
+      "voting_continues_at": "Voting continues {{ day }} at {{ time }}",
 
-      "button_caption_eligibility": "Tarkasta vaalikelpoisuus",
-      "button_caption_vote": "Äänestämään!"
+      "button_caption_eligibility": "Check Eligibility",
+      "button_caption_vote": "Let's Vote!"
     },
 
     "sign_in_error": {
       "no_voting_right": {
-        "title": "Ei äänioikeutta",
-        "lead": "Opiskelijanumerollasi ei ole äänioikeutta.",
-        "body": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään.",
-        "button_caption": "Palaa etusivulle"
+        "title": "No Voting Right",
+        "lead": "Your student number does not have a right to vote.",
+        "body": "Please contact the election staff in case of an error.",
+        "button_caption": "Return to Frontpage"
       },
 
       "invalid_saml_response": {
-        "title": "Kirjautumisvirhe",
-        "lead": "Yhteistyö yliopiston kirjautumispalvelun kanssa epäonnistui.",
-        "body": "Jos ongelma ei poistu uudella yrityksellä, ota yhteys HYYn vaalityöntekijään.",
-        "button_caption": "Yritä uudelleen"
+        "title": "Sign In Error",
+        "lead": "Cooperation with the authentication service failed.",
+        "body": "If the problem persists, please contact the election staff.",
+        "button_caption": "Try Again"
       },
 
       "general": {
-        "title": "Tuntematon virhe",
-        "lead": "Jotain meni tuntemattomasta syystä pieleen.",
-        "body": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään.",
-        "button_caption": "Yritä uudelleen"
+        "title": "Unknown Error",
+        "lead": "Something went wrong for an unknown reason.",
+        "body": "If the problem persists, please contact the election staff.",
+        "button_caption": "Try Again"
       }
 
     },
 
     "sign_in": {
-      "loading": "Ladataan",
+      "loading": "Loading",
 
       "error": {
-        "title_invalid_key": "Avain ei kelpaa",
-        "lead": "Sisäänkirjautumislinkkisi on vanhentunut tai äänestys on suljettu.",
-        "private_browsing_note": "Tarkista myös, ettei selaimesi ole Private Browsing tilassa.",
-        "request_new_link": "Pyydä uusi linkki",
+        "title_invalid_key": "Invalid link",
+        "lead": "Your sign in link has expired or voting is closed.",
+        "private_browsing_note": "Please check that your browser is not in Private Browsing Mode.",
+        "request_new_link": "Reqeust new link",
 
         "private_browsing_mode": {
-          "title": "Selaimesi on yksityistilassa",
-          "lead": "Selaimesi käyttää \"Private Browsing Mode\" -yksityisyysasetusta, mikä estää vaalijärjestelmän toiminnan.",
-          "what_now": "Avaa sisäänkirjautumislinkki tavallisessa selainikkunassa."
+          "title": "You're in Private Browsing Mode",
+          "lead": "Your browser has \"Private Browsing Mode\" enabled, which prevents the voting service from functioning.",
+          "what_now": "Please open the sign in link in a normal browser window."
         }
 
       }
     },
 
     "sign_up": {
-      "page_title": "Kirjaudu sisään",
-      "attention": "Huom!",
-      "voting_days_are": "Äänestyspäivät ovat {{ firstPeriod }} ja {{ secondPeriod }}",
-      "voting_open_hours_are": "Äänestys on avoinna klo {{ range }} välisenä aikana.",
-      "primary_button_caption": "Kirjaudu sisään",
-      "if_cannot_sign_in": "Mikäli et voi käyttää yliopiston käyttäjätunnusta tai sisäänkirjautuminen ei jostain syystä onnistu, ota yhteys HYYn vaalityöntekijään {{ name }}, {{ email }}, {{ phone }}.",
-      "sign_in_is_not_active": "Äänestäminen ei ole tällä hetkellä avoinna.",
+      "page_title": "Sign Up",
+      "attention": "Please note!",
+      "voting_days_are": "The voting period starts on 28.10.19 at 12.00 and ends on 5.11.19 at 16.00.",
+      "voting_open_hours_are": "Voting will be disallowed during the night from 23.00 to 7.00 each day.",
+      "primary_button_caption": "Sign Up",
+      "if_cannot_sign_in": "If you cannot access your university user account or signing up fails for some reason, please contact the election staff {{ name }}, {{ email }}, {{ phone }}.",
+      "sign_in_is_not_active": "Voting is not open at the moment.",
 
       "edari": {
-        "eligibility": "Olet äänioikeutettu, kun olet ilmoittautunut läsnäolevaksi ja maksanut HYYn jäsenmaksun. Voit sisäänkirjautua äänestämään Helsingin yliopiston käyttäjätunnuksellasi.",
+        "eligibility": "You have a voting right if you have joined KY. You can sign up to vote by using your Aalto University user account.",
 
-        "late_member_note": "Mikäli ilmoittauduit läsnäolevaksi vasta äskettäin, opiskelijanumeroasi ei välttämättä vielä löydy äänoikeutettujen listasta. Tällöin saat kirjautumisen jälkeen saat ilmoituksen, ettei sinulla ole äänioikeutta. Sinulle voidaan kuitenkin luoda äänioikeus, mikäli esität tositteen jäsenmaksun maksamisesta HYYn keskustoimistolla."
+        "late_member_note": "If you enrolled in just recently, your student number might not yet be in the list of people with voting rights. In that case you will receive a message after signing in that you don't have a voting right. Your voting right can be created if you Join KY at Espilä."
       },
 
       "request_link": {
         "ingress":
-          "Anna opiskelijarekisteriin tallentamasi sähköpostiosoite, niin sinulle lähetetään sisäänkirjautumislinkki.",
-        "password_instructions":
-          "Salasana lähetetään ainoastaan ennalta tunnettuun sähköpostiosoitteeseen. Tarkista opiskelijarekisteriin antamasi sähköpostiosoitteesi <a href='https://weboodi.helsinki.fi'>kirjautumalla WebOodiin</a>.",
+          "Give the same e-mail address you have in University’s student registry, and we will send you a registration link.",
+       "password_instructions":
+          "Password can be delivered only to the email address that you have in the student registry. You can check which email address you have used on the contact details page in <a href='https://oodi.aalto.fi'>WebOodi</a>.",
         "spam_instructions":
-          "Tarkista myös sähköpostisi roskapostikansio, mikäli et saa sisäänkirjautumislinkkiä.",
+          "In case you didn't receive the link, please also check your spam folder.",
         "in_case_of_fire":
-          "Viime kädessä ota yhteys HYYn vaalityöntekijään <a href='mailto:vaalit@hyy.fi'>vaalit@hyy.fi</a> tai +358 46 921 7850.",
+          "If everything else fails, please contact the election staff of KY! <a href='mailto:elections@ky.fi'>elections@ky.fi</a> or +358 44 023 5697.",
 
-        "attention": "Huom!",
+        "attention": "Please Notice:",
         "election_dates_explained":
-          "Äänestys on auki ti 15.12.2015 klo 9:00 - 20:00 ja ke 16.12.2015 klo 9:00 - 17:00 välisenä aikana.",
+          "Voting is between Mon 28.10.2019 at 12:00 and Tue 5.11.2019 at 16:00.",
         "staff_eligibility_note":
-          "Vakituiseen henkilökuntaan kuuluvilla ei ole äänioikeutta hallinnon opiskelijaedustajien vaalissa.",
+          "Permanent staff of the university are not eligible to vote student members in the administration elections.",
         "private_browsing_note":
-          "Varmista, ettei selaimesi ole Private Browsing tilassa, kun avaat linkin.",
+          "Ensure that you do not have Private Browsing Mode enabled when you open the sign in link.",
 
-        "input_caption_email": "Sähköposti",
-        "button_caption_submit": "Lähetä sisäänkirjautumislinkki",
-        "button_caption_submitting": "Lähetetään ..",
+        "input_caption_email": "Email",
+        "button_caption_submit": "Send me the link",
+        "button_caption_submitting": "Sending ..",
 
         "link_has_been_sent":
-          "Sisäänkirjautumislinkki on lähetetty antamaasi osoitteeseen!",
+          "Link for sign in has been sent!",
         "pls_check_email":
-          "Kirjaudu sisään noudattamalla sähköpostiosoiteeseesi lähetettyjä ohjeita.",
+          "Please follow the instructions in your email and sign in.",
 
         "something_went_wrong": {
-          "detail": "Linkkiä ei voitu lähettää.",
+          "detail": "We were unable to send you the link.",
           "if_happens_again":
-            "Jos ongelma toistuu, ota yhteys HYYn vaalityöntekijään HYYn vaalityöntekijään vaalit@hyy.fi +358 46 921 7850.",
+            "If the problem happens again, please contact the election staff of KY elections@ky.fi +358 44 023 5697.",
           "pls_explain":
-            "Kerro vaalityöntekijälle virheen tekninen syy:"
+            "Please let us know the technical error message:"
         },
 
         "errors": {
-          "not_eligible_in_any_election": "Sinulla ei ole äänioikeutta yhteenkään vaaliin.",
-          "session_creation_not_permitted": "Äänestys ei ole avoinna. Näet äänestämisen aukiolon päivämäärän ja kellonajan yllä."
+          "not_eligible_in_any_election": "You are not eligible in any of the current elections.",
+          "session_creation_not_permitted": "Voting is closed. You can view the date and time for voting above."
         }
       }
     },
 
     "sign_out": {
-      "page_title": "Olet kirjautunut ulos",
-      "ingress": "Voit sulkea selainikkunan."
+      "page_title": "Signed Out",
+      "ingress": "You may close the browser window."
     },
 
     "profile": {
-      "page_title": "Omat tiedot",
-      "ingress": "Olet kirjautunut sisään seuraavin tiedoin.",
+      "page_title": "Personal Information",
+      "ingress": "You have signed in with the following information.",
       "you_are_eligible":
-        "Olet vaalikelpoinen oman laitoksesi ja tiedekunnan vaaleissa (Ylioppilaskunnan säännöt hallinnon opiskelijaedustajien vaalista 5 §).",
+        "You are eligible in the elections of your faculty and department.",
       "in_case_of_problem":
-        "Jos tiedoissa on epäselvyyksiä, ota yhteys ylioppilaskuntaan.",
+        "If there is a problem with your information, please contact KY.",
       "voter": {
-        "name": "Nimi",
+        "name": "Name",
         "email": "Email",
-        "phone": "Puhelin",
-        "faculty": "Tiedekunta",
-        "department": "Laitos"
+        "phone": "Phone",
+        "faculty": "Faculty",
+        "department": "Department"
       }
     },
 
     "vote": {
-      "page_title": "Äänestä",
+      "page_title": "Vote",
 
       "error": {
-        "something_went_wrong": "Kävi hassusti",
-        "could_not_load_candidates": "Ehdokastietojen lataaminen epäonnistui.",
-        "try_again": "Kirjaudu ulos ja yritä kirjautua uudelleen sisään.",
-        "button_caption": "Yritä uudelleen"
+        "something_went_wrong": "Something happened",
+        "could_not_load_candidates": "Candidates could not be loaded.",
+        "try_again": "Sign out and retry to signing in.",
+        "button_caption": "Try again"
       },
 
       "vote-ballot": {
-        "title": "Äänestyslippu",
-        "header-number": "Numero",
-        "header-name": "Nimi",
-        "ingress": "Valitse ehdokas alla olevasta listasta.",
-        "registration-note": "Äänesi kirjataan vasta, kun painat \"Äänestä\".",
-        "about-to-change-existing-vote": "Olet muuttamassa aiemmin antamaasi ääntä. Muutos kirjataan vasta kun painat 'Äänestä'.",
-        "button-submit-caption": "Äänestä",
-        "button-submit-confirm": "Paina uudelleen",
-        "submitting": "Äänestetään .."
+        "title": "Vote ballot",
+        "header-number": "Number",
+        "header-name": "Name",
+        "ingress": "Choose a candidate from the list.",
+        "registration-note": "Your vote is not registered until you press \"Vote\".",
+        "about-to-change-existing-vote": "You are about to change a previously cast vote. Change will be recorded after you click 'Vote'.",
+        "button-submit-caption": "Vote",
+        "button-submit-confirm": "Press again",
+        "submitting": "Voting .."
       },
 
-      "coalition-index-text": "Vaalirenkaat koostuvat vaaliliitoista ja vaaliliitot koostuvat ehdokkaista.",
-      "voting-right-already-used": "Olet jo käyttänyt äänioikeutesi",
-      "vote-has-been-cast": "Äänesi on kirjattu!",
-      "if-you-are-eligible-in-others": "Jos sinulla on äänioikeus useassa vaalissa,",
-      "choose-next-election": "valitse seuraava vaali",
-      "close-window-when-finished": "Sulje lopuksi selainikkuna.",
+      "coalition-index-text": "Coalitions consist of alliances and alliances consist of candidates.",
+      "voting-right-already-used": "You have already voted at",
+      "vote-has-been-cast": "Your vote is now recorded!",
+      "if-you-are-eligible-in-others": "If you are eligible in multiple elections,",
+      "choose-next-election": "select next election",
+      "close-window-when-finished": "You may close the browser window.",
 
       "search": {
-        "title": "Hae ehdokasta",
-        "candidate-name": "Ehdokasnimi",
-        "header-number": "Numero",
-        "header-candidate": "Ehdokas",
-        "browser-search-tip": "Voit käyttää myös selaimen hakutoimintoa.",
-        "when-no-results": "Vaaliliitot, jotka eivät vastanneet hakuehtoasi, eivät ole näkyvissä."
+        "title": "Find a candidate",
+        "candidate-name": "Candidate name",
+        "header-number": "Number",
+        "header-candidate": "Candidate",
+        "browser-search-tip": "You can also use browser's search.",
+        "when-no-results": "Alliances, which did not match your search query, are not displayed."
       }
+
     },
 
     "elections": {
-      "page_title": "Äänestä",
-      "sign_in": "Sisäänkirjaudu",
-      "sign_up_please": "Pääset äänestämään sen jälkeen, kun olet kirjautunut sisään.",
-      "sign_up_button_caption": "Aloitetaan!",
+      "page_title": "Vote",
+      "sign_in": "Sign in First",
+      "sign_up_please": "You can vote after you have signed in.",
+      "sign_up_button_caption": "Let's do it!",
 
-      "you_can_vote_in_the_following": "Voit äänestää seuraavissa vaaleissa:",
-      "choose_election": "Avaa vaali, valitse ehdokas ja paina \"äänestä\".",
-      "submit_vote_help": "Äänesi rekisteröidään, kun painat \"äänestä\"-nappia ehdokkaan valitsemisen jälkeen.",
-      "vote_is_immutable": "Et voi muuttaa antamaasi ääntä jälkikäteen.",
+      "you_can_vote_in_the_following": "You can vote in the following elections:",
+      "choose_election": "Open the election, choose a candidate and press \"vote\".",
+      "submit_vote_help": "Your vote will be registered when you press the \"vote\" button after choosing a candidate.",
+      "vote_is_immutable": "A cast vote cannot be changed afterwards.",
 
       "table_header": {
-        "election_name": "Vaalin nimi",
-        "status": "Äänestetty"
+        "election_name": "Election Name",
+        "status": "Already voted?"
       },
 
       "not_started": {
-        "voting_has_not_started_yet": "Äänestäminen ei ole vielä alkanut."
+        "voting_has_not_started_yet": "Voting has not started yet."
       },
 
       "empty": {
-        "no_elections_available": "Sinulla ei ole äänioikeutta yhteenkään vaaliin."
+        "no_elections_available": "You are not eligible to vote in any elections."
       }
     }
 
   },
 
   "common": {
-    "loading": "Ladataan"
+    "loading": "Loading"
   },
 
   "partials": {
     "info": {
-      "main_title": "HYYn edustajistovaalit",
+      "main_title": "KY Elections",
       "ingress":
-        "HYYn edustajistovaaleissa valitaan ylioppilaskunnan ylin päättävä elin, 60-henkinen edustajisto. Äänioikeutettuja ovat HYYn jäsenet eli noin 27 000 Helsingin yliopiston opiskelijaa.",
+        "KY’s Representative Council elections are conducted to elect 21 members and 42 vicemembers into the council, the highest decision-making body of KY. All KY’s members, around 3,600 students at the Aalto University School of Business, have the right to vote in the elections.",
       "election_dates_explained":
-        "Äänestyspäivät ovat {{ firstPeriod }} ja {{ secondPeriod }}. Äänestys on avoinna klo {{ range }}."
+        "Voting starts on 28.10.19 at 12.00 and ends on 5.11.19 at 16.00. Voting will be closed during the night from 23.00 to 7.00 each day."
     },
 
     "contact": {
-      "more_info": "Lisätietoa",
-      "hyy_ae_link_caption": "HYYn hallintovaalisivusto",
-      "hyy_election_link_caption": "HYYn vaalisivusto",
-      "in_case_of_fire": "Ongelmatilanteessa ota yhteys HYYn vaalityöntekijään"
+      "more_info": "More information",
+      "hyy_ae_link_caption": "KY's info page",
+      "hyy_election_link_caption": "KY's info page",
+      "in_case_of_fire": "In case of a problem, please contact"
     }
   }
 }
